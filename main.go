@@ -6,8 +6,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/GeovaniiSilva/users_posts_api/controllers"
-	"github.com/GeovaniiSilva/users_posts_api/models"
+	"github.com/dev-geov/users_posts_api/controllers"
+	"github.com/dev-geov/users_posts_api/models"
 )
 
 func Routers() {

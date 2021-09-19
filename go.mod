@@ -1,4 +1,4 @@
-module github.com/GeovaniiSilva/users_posts_api
+module github.com/dev-geov/users_posts_api
 
 go 1.16
 

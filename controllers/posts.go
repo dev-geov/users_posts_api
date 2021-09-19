@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/GeovaniiSilva/users_posts_api/models"
+	"github.com/dev-geov/users_posts_api/models"
 	"github.com/gorilla/mux"
 )
 
