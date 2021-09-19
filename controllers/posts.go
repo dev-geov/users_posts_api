@@ -14,7 +14,6 @@ func GetPosts(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	var posts []models.Post
 	models.DB.Find(&posts)
-	//models.DB.Model(&posts).Association("Authors")
 	json.NewEncoder(w).Encode(posts)
 }
 
